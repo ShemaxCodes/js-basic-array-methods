@@ -10,3 +10,8 @@ console.log(friends);
 const popped = friends.pop(); // removes the last element and returns that element
 console.log(popped);
 console.log(friends);
+
+friends.shift(); //removes first element
+console.log(friends);
+
+console.log(friends.indexOf("Meghan"));
